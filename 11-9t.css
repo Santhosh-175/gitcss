@@ -1,0 +1,52 @@
+.img-up-container{
+  height: 100px;
+  width: 100px;
+  display:inline-block;
+  position: relative;
+}
+
+.text-container {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+p {
+
+  background-color: beige;
+}
+
+
+
+.projects-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* 4 images per row */
+  gap: 15px;
+  margin: 20px;
+}
+
+.project {
+  position: relative;
+  overflow: hidden;
+}
+
+.project img {
+  width: 200%;
+  height: 200%;
+  display: block;
+  border-radius: 4px;
+}
+
+/* Label styling */
+.label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: black;
+  color: white;
+  padding: 8px 12px;
+  font-size: 14px;
+  font-weight: bold;
+}
